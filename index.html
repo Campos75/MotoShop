@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moto Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="/"> Moto Shop</a>
+            <ul class="nav-list">
+                <li><a class="nav-link" href="#inicio">Início</a></a></li>
+                <li><a class="nav-link" href="#produtos">Produtos</a></a></li>
+                <li><a class="nav-link" href="#faleconosco">Fale Conosco</a></a></li>
+                <button><a href="login.html">Sair</a></button>
+            </ul>
+        </nav>
+    </header>
+   
+    <div>
+        <section id="inicio"></section>
+        <h1 class="h1"> Seja Bem Vindo </h1>
+    </div>
+    <div class="search-box">
+        <input class="search-txt" type="text" name="" placeholder="Buscar">
+        <a class="search-btn" href="#">
+            <i class="fas fa-search"></i>
+        </a>
+        <section id="produtos"></section>
+        <h2 class="produtos">Produtos</h2>
+       
+        <div class="containerpai">
+        <div class="container">
+             <img src="Imagens para o site Moto Shop/pneu.webp">
+             <h3 class="h3">Pneus</h3>
+       </div>
+       <div class="container">
+        <img src="Imagens para o site Moto Shop/retrovisor.webp">
+        <h3 class="h3">Retrovisor</h3>
+  </div>
+  <div class="container">
+    <img src="Imagens para o site Moto Shop/banco.jpg">
+    <h3 class="h3">Capa de Banco</h3>
+</div>
+<div class="container">
+    <img src="Imagens para o site Moto Shop/tanque.jpg">
+    <h3 class="h3">Protetor de Tanque</h3>
+</div>
+<div class="container">
+    <img src="Imagens para o site Moto Shop/img2.webp">
+    <h3 class="h3">Capacetes</h3>
+</div>
+<div class="container">
+    <img src="Imagens para o site Moto Shop/slider.webp">
+    <h3 class="h3">Slides</h3>
+</div>
+</div>
+              <div class="formulario">
+                <form action="">
+                    <section id="faleconosco"></section>
+                    <div class="campo">
+                        <h1 id="titulo">Fale Conosco</h1>
+                        <p id="subtitulo">Complete com suas informações</p>
+                    </div>
+            
+                    <div class="grupo">
+                            <div class="campo">
+                                <label> <strong>Nome</strong>  </label>
+                                <input type="text" name="nome" id="nome" required>
+                            </div>
+                           <div class=" campo">
+                            <label for="sobrenome"><strong>Sobrenome</strong></label>
+                            <input type="text" name="sobrenome" id="sobrenome" required>
+                            </div>
+                            
+                    </div>
+            
+                    <div class="campo">
+                        <label for="email"><strong>Email</strong></label required>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="campo radio">
+                        <label for=""><strong>SEXO</strong></label>
+                        <label >
+                            <input type="radio" name="area" value="frontend"> MASCULINO
+                        </label>
+                        <label>
+                            <input type="radio" name="area" value="backend"> FEMININO
+                        </label>
+                        <label>
+                            <input type="radio" name="area" value="fullstack"> N/A
+                        </label>
+                    </div>
+                    <div class="campo">
+                        <label for="senioridade"> <strong>ESCOLHA A OPÇÂO ONDE VOCÊ RESIDE</strong></label>
+                        <select name="senioridade" id="senioridade">
+                            <option value="junior">BRASIL</option>
+                            <option value="senior">EXTERIOR</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <br>
+                        <label for="experiência"><strong>CONTE COMO PODEMOS AJUDÁ-LO:</strong></label>
+                        <textarea name="experiência" id="experiência" rows="8" style="width:500px"></textarea>
+                    </div>
+            
+                    <div class="btn"> 
+                        <button class="botao" type="submit"> ENVIAR </button>
+                    </div>
+                </form>
+            </div>
+            <footer>
+                <div class="wrapper">
+                    <div class="footer-box">
+                        <div class="company-footer">
+                            <h2>A Loja</h2>
+                            <p>Estamos sempre trabalhando para a melhoria da nossa loja e a satisfação dos nossos clientes.</p>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <div class="articles-footer">
+                            <h2>Informações</h2>
+                            <ul class="footer-list footer-article-list">
+                                <li>
+                                    <a href="#">Atendemos vistualmente pelo no número de whatsapp.</a>        
+                                </li>
+                                <li>
+                                    <a href="#">A loja também possui uma, oficina mecânica especializada.</a>                                  
+                                </li>
+                                <li>
+                                    <a href="#">Estamos localizados na Rua Augusta, Centro, Feira de Santana - BA.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-box">
+                        <h2>Nos encontre nas redes sociais</h2>
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>Linkedin</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="wrapper">
+                        <p> Moto Shop - 2022</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+</body>
+</html>

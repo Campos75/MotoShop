@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(45deg, #23232e, #3381f3);
+    height: 1vh;
+}
+
+button {
+    background-color: rgba(212, 52, 52, 0.897);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    margin-left: 80%;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: #fff;
+    text-decoration: nome;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #23232e;
+    height: 8vh;
+    border-bottom: 5px solid #3381f3;
+}
+
+main{
+    background-size: cover;
+    height: 92vh;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.h1 {
+    height: 15vh;
+    margin-left: 43%;
+    margin-top: 3%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    background-size: cover;
+}
+
+.search-box {
+    position: absolute;
+    top: 23%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    background: #23232e;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 5px solid #3381f3;
+}
+
+.search-box:hover > .search-txt {
+    width: 300px;
+    padding: 0.5px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+}
+
+.search-btn {
+    color: white;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 15px;
+    transition: 0.3s;
+    line-height: 40px;
+    width: 0px;
+}
+
+.produtos {
+    margin-top: 50px;
+    padding: 50px;
+    margin-left: 38%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    background-size: cover;
+}
+
+.containerpai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.container img {
+    height: 70%;
+    width: 70%;
+}
+
+.h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    background-size: cover;
+    margin-left: 23%;
+}
+
+
+
+    .formulario {
+        background-color: #23232e;
+        margin-top: 20%;
+        margin-left: 10%;
+        margin-bottom: 3%;
+        width : 700px;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        border-radius: 20px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-transform: uppercase;
+        border: 5px solid #3381f3;
+    }
+    #titulo {
+        text-align: center;
+        font-size:2em;
+        color: #fff;
+        text-decoration: nome;
+        transition: 0.3s;
+    }
+    
+    #subtitulo {
+        text-align: center;
+        font-size: 1.2em;
+        color: #fff;
+        text-decoration: nome;
+        transition: 0.3s;
+    }
+    
+    .campo {
+        margin-bottom: 10px;
+        color: #fff;
+        text-decoration: nome;
+        transition: 0.3s;
+        
+    }
+    
+    .campo label {
+        margin-bottom: 0.2em;
+        display: block;
+          color: #fff;
+        text-decoration: nome;
+        transition: 0.3s;
+    }
+    
+    .btn {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .botao {
+        font-size: 1em;
+        padding: 0.4em 2em;
+        border-radius:  10px;
+        border-width:1px;
+    
+    }
+    
+    #nome, #sobrenome {
+        width: 100%;
+    } 
+    
+    
+    #email{
+        width: 500px;
+    }
+    
+    input{
+        padding:5px;
+        font-size: 1em;
+        
+    }
+    
+    #check input{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .radio input{
+        width: 15px;
+        height: 15px;
+    }
+    
+    select{
+        padding: 5px;
+        font-size: 1em;
+    }
+    
+    .grupo {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        color: #fff;
+        text-decoration: nome;
+        transition: 0.3s;
+    }
+
+    footer {
+        background-color: #23232e;
+        padding: 5em 0;
+        padding-bottom: 40px;
+        border-top: 5px solid #3381f3;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-transform: uppercase;
+        grid-row: auto;
+      
+    }
+    
+    footer h2, footer p, footer a, footer span {
+        color: #D1D1D1;
+    }
+    
+    footer h2 {
+        font-weight: 400;
+    }
+    
+    footer a {
+        text-decoration: none;
+    }
+    
+    footer ul {
+        padding: 0;
+    }
+    
+    footer li {
+        list-style: none;
+    }
+    
+    .footer-box {
+        width: 31%;
+        padding: 1%;
+        float: left;
+    }
+    
+    footer .wrapper:after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .company-footer {
+        width: 80%;
+    }
+    
+    .company-footer h2 {
+        margin-top: 20px;
+    }
+    
+    .company-footer h2, .company-footer p {
+        margin-bottom: 20px;
+    }
+    
+    .footer-list li {
+        margin-bottom: 15px;
+    }
+    
+    .footer-list a {
+        transition: 0.5s;
+    }
+    
+    .footer-list a:hover {
+        color: #FFF;
+    }
+    
+    .footer-list li:after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+    
+    .articles-footer {
+        width: 80%;
+    }
+    
+    .footer-list.footer-article-list span {
+        display: block;
+        float: none;
+    }
+    
+    .fab {
+        font-size: 30px;
+        margin-right: 10px;
+        float: left;
+    }
+    
+    .footer-list li span {
+        float: left;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    .footer-bottom {
+        border-top: 1px solid #B2B2B2;
+    }
+    
+    .footer-bottom p {
+        font-weight: 600;
+        margin-top: 40px;
+    }
